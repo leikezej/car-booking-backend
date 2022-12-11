@@ -21,7 +21,7 @@ const connect = async () => {
 };
 
 mongoose.connection.on("disconnected", () => {
-  console.log("mongoDB disconnected!");
+  console.log("mongoDB has been disconnected!");
 });
 
 //middlewares
